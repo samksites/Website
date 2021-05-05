@@ -1,0 +1,24 @@
+
+
+#intro{
+    margin-left: -8px;
+   
+    color: rgba(225, 244, 252, 0.932);
+}
+
+h1{
+    position: relative;
+    top: 400px;
+    text-align: center;
+    
+
+    
+}
+
+body {
+    background-color: blanchedalmond;
+    background-image:    url(/photos/mountains.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
