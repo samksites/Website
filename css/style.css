@@ -16,6 +16,7 @@ h1{
     font-size: 75px;
     color: #66FCF1;
     -webkit-text-stroke: 1px black;
+    text-align: center;
 }
 
 
@@ -27,12 +28,13 @@ li{
     list-style: none;
 }
 
+
 /* Navbar */
 
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: space-between;
     background-color: #333;
     color: #fff;
     opacity: 0.8;
@@ -58,6 +60,10 @@ li{
     display: flex;
 }
 
+.close-images{
+    margin-right: -25px;
+}
+
 /* Header */
 
 .welcome{
@@ -77,38 +83,3 @@ li{
     
 }
 
-/* about section */
-
-.flex-items{
-    display: flex;
-    flex-direction: column;
-
-}
-
-#title{
-    left: 90px;
-    position: relative;
-    margin: 10px 0px;
-    
-    
-}
-
-#underline{
-    height: 2px;
-    width: 190vw;
-    background-color: #66FCF1;;
-    
-    position: relative;
-    margin-bottom: 30px;
-}
-
-#self{
-    height: 200px;
-    width: auto;
-    border-radius: 50%;
-}
-
-#about{
-    height: 700px;
-    color: #fff;
-}
