@@ -24,7 +24,7 @@ h1{
 a{
     text-decoration: none;
 }
-li{
+.no-display{
     list-style: none;
 }
 
@@ -78,8 +78,9 @@ li{
 .content{
     top: 250px;
     margin: auto;
-    width: 50%;
+    width: 100%;
     position: relative;
+
     
 }
 

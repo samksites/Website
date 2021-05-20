@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
+
+
 /* about section */
 
 .flex-items{
@@ -35,6 +37,7 @@
 #about-section{
     color: #fff;
     display: flex;
+    
     flex-direction: column;
     justify-content: space-around;
 }
@@ -43,15 +46,22 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 35px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.intro-elements:hover{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #66FCF1;
+   
 }
 
 
-#intro-text{
+.intro-text{
     
     display: flex;
     flex-direction: column;
-    font-size: 22px;
+    font-size: 25px;
     justify-content: space-evenly;
     font-family: 'Oswald', sans-serif;
 }
@@ -61,3 +71,129 @@
     height: auto;
     margin-left: -15vw;
 }
+
+#college-photo{
+    width: 37vw;
+    height: auto;
+    margin-left: 12vw;
+    border-radius: 2%;
+}
+
+.spacing{
+    margin-bottom: 10px;
+}
+
+#skills-title{
+    color: #66FCF1;  
+    text-shadow: 1px 1px 5px #66FCF1; 
+    text-align: center;
+    font-size: 33px;
+    margin-bottom: 35px;
+}
+
+.boxes{
+    height: 55px;
+    width: 130px;
+    border: #fff;
+    border-style: solid;
+    margin: 0px 3px;
+    color: #fff;
+    text-align: center;
+}
+
+.boxes > p {
+    margin-top: 17px;
+    font-size: 20px;
+}
+
+
+
+.pyrmid{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+
+.worst:hover >.boxes{
+    box-shadow: 2px 2px 5px #66FCF1;
+    border-color: #66FCF1;
+}
+
+.worst:hover > .boxes > p{
+    text-shadow: 2px 2px 5px orange;
+    color: orange;
+}
+
+.allright:hover >.boxes{
+    box-shadow: 2px 2px 5px #66FCF1;
+    border-color: #66FCF1;
+}
+
+.allright:hover > .boxes > p{
+    text-shadow: 2px 2px 5px yellow;
+    color: yellow;
+}
+
+
+.good:hover > .boxes > p{
+    text-shadow: 2px 2px 5px rgb(132, 0, 255);
+    color: rgb(132, 0, 255);
+    
+}
+
+.good:hover >.boxes{
+    box-shadow: 2px 2px 5px #66FCF1;
+    border-color: #66FCF1;
+}
+
+
+
+.perfect:hover > .boxes > p{
+    text-shadow: 2px 2px 5px rgb(0, 184, 0);
+    color: green;
+}
+
+.perfect:hover >.boxes{
+    box-shadow: 2px 2px 5px #66FCF1;
+    border-color: #66FCF1;
+}
+
+/*  End of pyramid start of coading skills */
+
+#coading-skills{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skill-boxes * {
+    pointer-events: none;
+}
+
+.skill-boxes{
+    height: 400px;
+    width: 250px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    
+}
+
+.skill-boxes:hover{
+    border-color: #66FCF1;
+    box-shadow: 2px 2px 5px #66FCF1;
+    
+}
+
+.skill-boxes > ul > li{
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+.skill-boxes > h2{
+    font-size: 30px;
+}
+
