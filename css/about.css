@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
 
-
+body{
+    font-family: Tomorrow, sans-serif;
+    font-size: .85rem;
+    
+}
 
 /* about section */
 
@@ -50,20 +54,56 @@
     margin-bottom: 40px;
 }
 
+.intro-elements:link{
+    color: white;
+}
+
 .intro-elements:hover{
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #66FCF1;
+    color: #66FCF1;
+    border-color: #66FCF1;
    
 }
+
+.intro-elements > a{
+    color: white;
+    border-color: white;
+}
+
+
+
+:link{
+    color: white;
+    -webkit-text-stroke-width: 0px;
+}
+
+:link:hover{
+    color: #66FCF1;
+    -webkit-text-stroke-width: 1px;
+}
+
+
 
 
 .intro-text{
     
     display: flex;
     flex-direction: column;
-    font-size: 25px;
+    font-size: 20px;
     justify-content: space-evenly;
-    font-family: 'Oswald', sans-serif;
+    
+}
+
+#edge-higher{
+    margin-top: -70px;
+}
+
+#resume{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    
 }
 
 #self-photo{
@@ -102,7 +142,7 @@
 }
 
 .boxes > p {
-    margin-top: 17px;
+    margin-top: 12px;
     font-size: 20px;
 }
 
@@ -158,6 +198,19 @@
     border-color: #66FCF1;
 }
 
+#download{
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    border-style: solid;
+    border-color: #66FCF1;
+    text-decoration: none;
+    
+}
+
+
+
+
 /*  End of pyramid start of coading skills */
 
 #coading-skills{
@@ -190,10 +243,30 @@
 
 .skill-boxes > ul > li{
     margin: 20px 0px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .skill-boxes > h2{
     font-size: 30px;
 }
+
+
+
+
+/*  Glow effect on the resume button   */ 
+
+#download:hover{
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+      box-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #66FCF1, 0 0 0px #66FCF1, 0 0 0px #66FCF1, 0 0 0px #66FCF1, 0 0 0px #66FCF1;
+    }
+    to {
+      box-shadow: 0 0 8px #fff, 0 0 12px #66FCF1, 0 0 16px #66FCF1, 0 0 20px #66FCF1, 0 0 24px #66FCF1, 0 0 28px #66FCF1
+    }
+  }
 
