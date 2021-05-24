@@ -9,7 +9,21 @@
 }
 
 .name{
-  margin-top: 20px;
+  margin-top: 28px;
+  margin-bottom: 30px;
+  
+}
+
+.underline-words{
+  width: 260px;
+  height: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.inner-color{
+  color: orange;
   
 }
 
