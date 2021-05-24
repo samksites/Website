@@ -27,7 +27,7 @@ body{
     height: 2px;
     width: 100%;
     background-color: #66FCF1;;
-    
+    box-shadow: 3px 3px 5px #66FCF1;
     position: relative;
     
 }
@@ -44,6 +44,7 @@ body{
     
     flex-direction: column;
     justify-content: space-around;
+   
 }
 
 .intro-elements{
@@ -217,6 +218,7 @@ body{
     margin-top: 70px;
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 35px;
 }
 
 .skill-boxes * {
