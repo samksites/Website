@@ -10,7 +10,7 @@
 
 .name{
   margin-top: 28px;
-  margin-bottom: 30px;
+  
   
 }
 
@@ -20,12 +20,14 @@
   margin-left: auto;
   margin-right: auto;
   background-color: white;
+  margin-top: 20px;
 }
 
-.inner-color{
-  color: orange;
-  
+.color-1{
+  background-color: rgb(255, 187, 0);
 }
+
+
 
 
  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
@@ -36,6 +38,11 @@
     border: 3px solid #66FCF1;
     box-shadow: 2px 2px 5px #66FCF1;
      /* Remove this if you don't want the 3D effect */
+  }
+
+  .card-format > ul > li{
+    margin-top: 20px;
+    font-size: large;
   }
   
   /* This container is needed to position the front and back side */
