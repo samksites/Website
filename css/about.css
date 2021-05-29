@@ -53,7 +53,11 @@ body{
     justify-content: space-around;
     margin-top: 40px;
     margin-bottom: 40px;
+    
+    
 }
+
+
 
 .intro-elements:link{
     color: white;
@@ -95,8 +99,13 @@ body{
     
 }
 
+.intro-text > ul > li{
+    list-style-type: none;
+}
+
 #edge-higher{
-    margin-top: -70px;
+    
+    width: 620px;
 }
 
 #resume{
@@ -108,7 +117,7 @@ body{
 }
 
 #self-photo{
-    width: 20Vw;
+    width: 15Vw;
     height: auto;
     margin-left: -15vw;
 }
@@ -123,6 +132,49 @@ body{
 .spacing{
     margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 1250px) {
+    .intro-elements{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        
+    }
+
+    #change-order{
+        order: 2;
+        text-align: center;
+    }
+
+    #self-photo{
+        width: 20Vw;
+        height: auto;
+        margin: 30px 0px;
+        
+    }
+
+    #college-photo{
+        width: 40vw;
+        height: auto;
+        margin: 30px 0px;
+        border-radius: 2%;
+
+    }
+
+    #edge-higher{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #edge-higher > h3{
+        margin-bottom: 28px;
+    }
+  }
+
+
+/* End of about stage start of coading skills */
 
 #skills-title{
     color: #66FCF1;  
@@ -206,7 +258,7 @@ body{
     border-style: solid;
     border-color: #66FCF1;
     text-decoration: none;
-    
+    line-height: 28px;
 }
 
 
@@ -250,6 +302,24 @@ body{
 
 .skill-boxes > h2{
     font-size: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+    
+    #coading-skills{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 35px;
+        
+    }
+
+    .skill-boxes{
+        margin: 24px 0px;
+    }
+
 }
 
 
