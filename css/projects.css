@@ -44,6 +44,10 @@
      /* Remove this if you don't want the 3D effect */
   }
 
+  .flip-card > .flip-card-inner > .flip-card-back > p {
+    line-height: 1;
+  }
+
   .card-format > ul > li{
     margin-top: 20px;
     font-size: large;
@@ -92,4 +96,20 @@
 
   .light-up:hover{
     color: #66FCF1;
+  }
+
+  @media only screen and (max-width: 800px) {
+
+    .projects{
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      
+    }
+
+    .flip-card{
+      margin-top: 25px;
+      margin-bottom: 15px;
+    }
+
   }
