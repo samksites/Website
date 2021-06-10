@@ -40,3 +40,13 @@ function boxes(number){
     
 }
 
+function openNav(){
+    var x = document.getElementById("expand");
+  if (x.style.display === "flex") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "flex";
+  }
+
+}
+

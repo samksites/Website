@@ -25,15 +25,18 @@
                 </ul>
             </nav>
 
-
-            <nav>
-                <ul class="no-display">
-                    <li><a href="#welcome">Welcome</a> </li>
-                    <li><a href="#about">About</a> </li>
-                    <li><a href="#projects">Projects</a> </li>
-                    <li><a href="#contact">Contact</a> </li>
+            <nav style="margin-bottom: 5px;">
+                <ul class="no-display" >
+                    <li id="items"><a href="#welcome">Welcome</a> </li>
+                    <li id="items"><a href="#about">About</a> </li>
+                    <li id="items"><a href="#projects">Projects</a> </li>
+                    <li id="items"><a href="#contact">Contact</a> </li>
+                 
                 </ul>
             </nav>
+
+
+            
         </div>
 
         <div id="navbar-mobile" class="navbar">
@@ -48,7 +51,7 @@
             </nav>
 
 
-            <nav>
+            <nav onclick="openNav()">
                 <div id="mobile-nav">
 
                     <div class="lines">
@@ -64,6 +67,22 @@
                 </div>
                 
             </nav>
+        </div>
+
+        <div id="expand">
+            <nav>
+                <ul class="no-display" >
+                    <li id="items" style="margin-top: -5px;"><a href="#welcome">Welcome</a> </li>
+                    <ul id="nav-under"></ul>
+                    <li id="items"><a href="#about">About</a> </li>
+                    <ul id="nav-under"></ul>
+                    <li id="items"><a href="#projects">Projects</a> </li>
+                    <ul id="nav-under"></ul>
+                    <li id="items"><a href="#contact">Contact</a> </li>
+                    <ul id="nav-under"></ul>
+                </ul>
+            </nav>
+
         </div>
 
         <div class="content">
@@ -103,10 +122,14 @@
                         <h3 style="font-weight: bold;">Education</h3>
                         
                             <p class="about-text">
-                                Graduated from James Madison University in 2021 <br>
-                                Major: B.S in Integrated Science and Technology with a<br> concentration in Information Knowledge Management (IKM)
-                                Minor: Computer science <br>
+                                Graduated from James Madison University in 2021
+                                <div id="under"></div>
+                                Major: B.S in Integrated Science and Technology with a<br> concentration in Information Knowledge Management (IKM) 
+                                <div id="under"></div>
+                                Minor: Computer science
+                                <div id="under"></div>
                                 Served as JMU Club Swimmings President(2020-2021),<br> Vice president(2019-2020) and Sectotary(2018-2019).
+                                <div id="under"></div>
                             </p>
                         <div id="resume">
                             <h3>Resume</h2>
@@ -120,10 +143,10 @@
                         <h3 style="font-weight: bold;" id="small-margin">Education</h3>
                         
                             <p class="about-text">
-                                Graduated from James Madison University in 2021 <br> <br>
-                                Major: B.S in Integrated Science and Technology with a<br> concentration in Information Knowledge Management (IKM) <br> <br>
-                                Minor: Computer science <br> <br>
-                                Served as JMU Club Swimmings President(2020-2021),<br> Vice president(2019-2020) and Sectotary(2018-2019).
+                                Graduated from James Madison University in 2021 <div id="under"></div>
+                                Major: B.S in Integrated Science and Technology with a<br> concentration in Information Knowledge Management (IKM) <div id="under"></div>
+                                Minor: Computer science <div id="under"></div>
+                                Served as JMU Club Swimmings President(2020-2021),<br> Vice president(2019-2020) and Sectotary(2018-2019). <div id="under"></div>
                             </p>
                         <div id="resume">
                             <h3>Resume</h2>

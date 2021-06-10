@@ -26,6 +26,19 @@
     
 }
 
+#under{
+
+    height: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    background-color: #66FCF1;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    position: relative;
+
+}
+
 #self{
     height: 200px;
     width: auto;
@@ -72,6 +85,14 @@
     border-color: #66FCF1;
    
 }
+
+.intro-text:hover > p > ul{
+   
+    box-shadow: 3px 3px 5px #66FCF1;
+    
+}
+
+
 
 .intro-elements > a{
     color: white;
@@ -356,14 +377,14 @@
     }
 
     #college-photo{
-        height: 300px;
-        width: auto;
+        height: auto;
+        width: 90vw;
     }
 
     #self-photo{
 
-        height: 300px;
-        width: auto;
+        height: auto;
+        width: 90vw;
     }
 
 }
