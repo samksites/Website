@@ -50,3 +50,29 @@ function openNav(){
 
 }
 
+var hold = [true,true]
+
+function flipCard(id){
+    
+
+    
+    var x = document.getElementById(id);
+    
+    var temp = parseInt(id);
+
+    console.log(hold);
+    if(hold[temp]){
+        x.style.transform = "rotatey(180deg)";
+        hold[temp] = false;
+        
+    } else{
+       
+        x.style.transform = "rotatey(0deg)";
+        hold[temp] = true;
+        console.log("no");
+    }
+    
+
+    
+}
+

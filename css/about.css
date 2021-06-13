@@ -387,6 +387,51 @@
         width: 90vw;
     }
 
+    .worst > .boxes{
+        box-shadow: 2px 2px 5px #66FCF1;
+        border-color: #66FCF1;
+    }
+
+    .worst > .boxes > p{
+        text-shadow: 2px 2px 5px orange;
+        color: orange;
+    }
+    
+    .allright >.boxes{
+        box-shadow: 2px 2px 5px #66FCF1;
+        border-color: #66FCF1;
+    }
+    
+    .allright > .boxes > p{
+        text-shadow: 2px 2px 5px yellow;
+        color: yellow;
+    }
+    
+    
+    .good > .boxes > p{
+        text-shadow: 2px 2px 5px rgb(132, 0, 255);
+        color: rgb(132, 0, 255);
+        
+    }
+    
+    .good >.boxes{
+        box-shadow: 2px 2px 5px #66FCF1;
+        border-color: #66FCF1;
+    }
+    
+    
+    
+    .perfect > .boxes > p{
+        text-shadow: 2px 2px 5px rgb(0, 184, 0);
+        color: green;
+    }
+
+    .perfect >.boxes{
+        box-shadow: 2px 2px 5px #66FCF1;
+        border-color: #66FCF1;
+    }
+    
+
 }
 
 
