@@ -318,7 +318,12 @@
     
 }
 
-.skill-boxes > ul > li{
+#one > ul > li{
+    margin: 20px 0px;
+    font-size: 15px;
+}
+
+#two > ul > li{
     margin: 20px 0px;
     font-size: 15px;
 }
