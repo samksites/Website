@@ -114,6 +114,7 @@ a{
 }
 
 
+
 @media only screen and (max-width: 800px) {
     #navbar-mobile{
         display: flex;
@@ -138,7 +139,7 @@ a{
         color: #fff;
         opacity: 0.8;
         width: 100px;
-        height: 150px;
+        height: 195px;
         position: fixed;
         right: 0px;
         top: 55px;
