@@ -8,6 +8,10 @@
 
 }
 
+#move-txt{
+    width: 700px;
+}
+
 #title{
     left: 90px;
     width: 300px;
@@ -339,6 +343,9 @@
 
 
 @media only screen and (max-width: 800px) {
+
+    #move-txt{ width: 320px;
+    }
     
     #coading-skills{
         margin-top: 70px;
